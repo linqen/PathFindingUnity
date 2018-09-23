@@ -5,6 +5,15 @@
 [Bb]uilds/
 Assets/AssetStoreTools*
 
+# Exclude 3rd party libraries installed from the assets store
+[Aa]ssets/Asset Store Resources/
+
+# JetBrains Rider Plugin Folder
+[Aa]ssets/Plugins/Editor/JetBrains
+/Assets/Plugins/Editor/JetBrains.meta
+
+# Exclude rider idea data
+.idea
 # Visual Studio cache directory
 .vs/
 
